@@ -1,0 +1,21 @@
+{
+  "name": "midnight-haunt",
+  "version": "1.0.0",
+  "description": "Midnight Haunt: Spooky Slicer - Crypt of the Wandering Souls | Competition-Grade Interactive Horror Experience",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "rive:verify": "rive . --verify",
+    "rive:build": "rive . --once",
+    "test": "node tests/run-tests.js"
+  },
+  "dependencies": {
+    "@rive-app/canvas": "^2.24.0",
+    "three": "^0.170.0"
+  },
+  "devDependencies": {
+    "vite": "^6.0.0"
+  }
+}
